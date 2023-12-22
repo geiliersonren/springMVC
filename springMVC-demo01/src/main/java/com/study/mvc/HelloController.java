@@ -26,4 +26,10 @@ public class HelloController {
 
         return "hello";
     }
+
+    @RequestMapping(value = "/target")
+    public String getTarget() {
+
+        return "target";
+    }
 }
